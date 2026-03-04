@@ -24,7 +24,7 @@ const App = () => {
           <div className="tabs">
             <span>Daily</span>
             <span>Monthly</span>
-            <span>Yearly</span>
+            <spa>Yearly</spa>
           </div>
         </div>
         <div className="right-container">
@@ -35,18 +35,40 @@ const App = () => {
             time={36}
             previousTime={38}
           />
-          <TimeCard classname={"play"} timeType={"Play"} bgImage={play} />
-          <TimeCard classname={"study"} timeType={"Study"} bgImage={study} />
+          <TimeCard
+            classname={"play"}
+            timeType={"Play"}
+            bgImage={play}
+            time={36}
+            previousTime={38}
+          />
+          <TimeCard
+            classname={"study"}
+            timeType={"Study"}
+            bgImage={study}
+            time={36}
+            previousTime={38}
+          />
           <TimeCard
             classname={"exercise"}
             timeType={"Exercise"}
             bgImage={exercise}
+            time={36}
+            previousTime={38}
           />
-          <TimeCard classname={"social"} timeType={"Social"} bgImage={social} />
+          <TimeCard
+            classname={"social"}
+            timeType={"Social"}
+            bgImage={social}
+            time={36}
+            previousTime={38}
+          />
           <TimeCard
             classname={"selfCare"}
             timeType={"Self Care"}
             bgImage={selfCare}
+            time={36}
+            previousTime={38}
           />
         </div>
       </div>
